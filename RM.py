@@ -41,6 +41,7 @@ def grafico():
     plt.tight_layout()
 
     buf = io.BytesIO()
+    print(df["Promedio"].describe())
     plt.savefig(buf, format="png")
     plt.close()
     buf.seek(0)
