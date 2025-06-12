@@ -11,8 +11,8 @@ creds = ServiceAccountCredentials.from_json_keyfile_name("credenciales.json", sc
 client = gspread.authorize(creds)
 
 # Abrir Google Sheet y leer hoja
-spreadsheet = client.open("Diagnóstico Madurez")
-sheet = spreadsheet.worksheet("Vaciado")
+spreadsheet = client.open("úbrica de madurez organizacional")
+sheet = spreadsheet.worksheet("Form responses")
 data = sheet.get_all_records()
 df = pd.DataFrame(data)
 
