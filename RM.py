@@ -12,8 +12,8 @@ client = gspread.authorize(creds)
 # Abrir Google Sheet y leer hoja
 spreadsheet = client.open_by_key("1NZ10wA1eN1zjUw6dLLZyXEUSmgJvl7ZI-xP-2B0BQj8")
 sheet = spreadsheet.worksheet("Form responses")
-data = sheet.get_all_records()
-df = pd.DataFrame(data)
+data = sheet.get_all_values()
+df = pd.DataFrame(data[1:], columns=data[0])
 
 # Calcular promedio
 puntaje_cols = [col for col in df.columns if "(puntaje)" in col]
