@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "quantum-episode-457719-h6",
+  "private_key_id": "3c2519dc765cbb6cb3d232fdb729540be469b49d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCopbSOaix99UDJ\nmAjLfb1SZQPT3Zr8C7VPrPlwxOtye4CCTGq3bPxfG9fsClFxM33qZArP0SXOS/yE\nvaCpAp/+O1YEbiDecDRSWXwfHeKGnQJJNaQu18Jv5S/JdLJVqOZaBQmUGGZY/2C4\nW8A2qRpWPcM4uNZsBuCFkCl2jtj7HuOkn8VZqqSc8xPXTPxMDTpdwvJm3Z8YTAOv\nLdq4+YAViSYHuhRZpnTno5FRsm17d+/Hasm/IhD2WdzaJqZl4pv4P8mmm3iV6luG\nh1Dajgi9thZMuyf5sdC7DzuzW7DZ3KUlUx/+76YW5EIjjBpdMld+ndMqeeaPETMC\nOwO+fm8NAgMBAAECggEACddLizDqYjo8utbGkptGgCeZWtRYXiNPw/O3xYsUIyTO\nSawsYQI40tL03Vb3zCeBTjtivyA4+MoJ1PQcyyf2TpdHTHBhtiEtiG2k1sr/ZDQG\nxV9eMoaQF8fzqymGW4XE1VVsauomlMRoMDHYbEgfW490lBuDFaAsG1cfeEXbJwIc\n6i3pjWCViPBUYY1BAMoY4LXHltDtNoYJQ4OZJ7s2umz5EDOYTXVpNLbmMc3n7UGN\njGwor2uZdXP0KRNqPwLW+nxQB1Epi0tIevT7069vMGidRcHqHhbgptNnI9NwHnIs\n9hKnvVS3BZx966ODHHpLfgmfPDd4Srdwu/Vg+cMSgQKBgQDXTzBAGGYms9yRH60N\nGCZXZnGlpODkBnxXoh8tBzsBk3hYHmgYLQzzbxyiz5ct0wD8KKPG8b0nfN7q9VNL\nJK2cGgxdcmeYGCI6cm6BRshTfmiK9/iLIwexDuIf2Tcp1bwt5cwKWnBMqSpEcLrU\n+/y/feoBTBPxeUp125fniDXLgQKBgQDIhPm40FQcnCGeQTrqmP5BLpm6GY/h4dB9\nVuLSFpmP4v/z30S6/JJdkK+SMwrISn9MhRMmPg3QFWRpXX+1ZWINN7tlZpRy7Z5f\nfDFkiytqt/6O53/luHUoNfAG98aUPqn4JMKXU00ArRoqrJz5ImQrjWwGF/zKyE9N\nYfCD8d3ZjQKBgGTQIUmBoyLwCJCzAjYlXp6ByyjCIMLj/oiR0oMk5Y4BXNH1usvH\nHE9HcWMSTDkamVV4OedG/UhmAYKGR+/hRqDW2X9PuA3RDwXK2s8RM29UuuKG5QtQ\n5aMT0vESpe+isi/Tb0xRuE9MzguptPFQ47FN5amh05y3LBQvM9snPfkBAoGAaWqv\nNmAfuCLE8cPtS2Q/Vtk+7D2ADQqAZ0SEXlqPRLvcP8ODCKK7+ACWrM+0vXOc1Qeo\n95PsAxccAOCswRqZn8VK+ZYiOQF/H0fVV7xqiOJOK6a88HI29XrVw3QDq+/9v3zj\n6FZcxxw6A3FX3Qodi2AACHwX5CvGtTHmFhfTwAkCgYEAkJbiFSXus63B59N3U+pQ\nIIRc0sIww0d/heCrgKOVIQ+nH3Ds+dGSg2sqMy7oYGgtcp5lAGLElu4tahtSJbdz\n4nl0ddx3JhJ/G7rfI8QZ/M3uios+83U1H/2rnZmFBdrwkLPnI7kuhL/A6bPJtsGZ\n+kaseGrg2zZKNTiXR2aoJJo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "credenciales@quantum-episode-457719-h6.iam.gserviceaccount.com",
+  "client_id": "103190688814996861306",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/credenciales%40quantum-episode-457719-h6.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
