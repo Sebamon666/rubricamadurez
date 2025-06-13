@@ -1,7 +1,5 @@
-
 import pandas as pd
-import matplotlib.pyplot as plt
-import matplotlib.ticker as mtick
+import plotly.express as px
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import re
@@ -43,14 +41,24 @@ print("Columnas reales:", df.columns.tolist())
 # Agrupación
 df_agrupado = df.groupby("Nombre de la organización")["Promedio"].mean().sort_values()
 
-# Graficar
-plt.figure(figsize=(10, 8))
-df_agrupado.plot(kind="barh")
-plt.xlabel("Promedio de Madurez")
-plt.title("Promedio de Madurez por Organización")
-plt.xlim(0, 5)
-plt.grid(axis="x", linestyle="--", alpha=0.7)
-plt.gca().xaxis.set_major_formatter(mtick.FormatStrFormatter("%.1f"))
+# Graficar con Plotly
+fig = px.bar(
+    df_agrupado,
+    x=df_agrupado.index,
+    y="Promedio",
+    labels={"Promedio": "Promedio de Madurez"},
+    title="Promedio de Madurez por Organización",
+    color="Promedio",
+    color_continuous_scale="RdYlGn",
+    height=500
+)
 
-plt.tight_layout()
-plt.savefig("madurez.png")
+fig.update_layout(
+    xaxis_title="Organización",
+    yaxis_title="Promedio de Madurez",
+    xaxis_tickangle=-45,
+    yaxis=dict(range=[0, 5]),
+    margin=dict(l=10, r=10, t=10, b=10)
+)
+
+fig.show()
